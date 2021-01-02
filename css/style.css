@@ -1,0 +1,204 @@
+@import 'fonts.css';
+
+:root {
+    --m-b: 'Montserrat-Bold';
+    --m-r: 'Montserrat-Regular';
+    --p-s-r: 'Montserrat-Sans-Regular';
+    --dark: #263742;
+    --blue:#314a5b;
+    --gray: #9aa0ab;
+    --pink: #fa5c65;
+    --light:#b9c0c6;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+/************************************************HEADER******************************************/
+.header{
+    background: url(../img/1.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+.header_container{
+    padding: 0;
+}
+.navbar__logo{
+    font-size: 23px;
+    color: #ffffff;
+    background: var(--pink);
+    font-family: var(--m-b);
+    padding: 55px 20px 5px 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.navbar{
+    padding-top:0px; 
+}
+.nav-link{
+    font-size: 17px;
+    color: var(--dark) !important;
+    font-family: var(--m-r);
+}
+.nav__icon{
+    color: var(--pink) !important;
+}
+.header_lg6{ 
+    margin-top: 20%;
+}
+.header__h5{
+    font-size: 48px;
+    font-family: var(--m-b);
+    color: var(--blue);
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.span__dot{
+    color: var(--pink);
+}
+.header__p{
+    color: var(--blue);
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.header__a{
+    font-size: 21px;
+    color: #ffffff;
+    padding: 25px 40px;
+    background: var(--pink);
+    border-radius: 10px;
+}
+/*******************************************PRODUCTS*********************************************/
+.products__h5{
+    font-size: 35px;
+    font-family: var(--m-b);
+    color: var(--blue);
+    text-transform: uppercase;
+    line-height: 27px;
+}
+.products__p{
+    font-size: 18px;
+    color: var(--gray);
+    line-height: 22px;
+    margin-top: 37px;
+    margin-bottom: 35px;   
+   
+}
+.products__a{
+    color: var(--pink);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--m-r);
+}
+.product__row{
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+/*******************************************PORTFOLIO*******************************************/
+.portfolio__h5{
+    font-size: 50px;
+    font-family: var(--m-b); 
+    color: var(--blue);
+}
+.portfolio__p1{
+    color: var(--blue);
+    font-size: 17px;
+    font-family: var(--m-b); 
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.portfolio__p{
+    color: var(--gray);
+    font-size: 17px;
+    margin-bottom: 25px;   
+}
+.portfolio__lg4{
+    padding: 35px 0px 0px 0px;
+}
+.portfolio__img{
+    width: 100%;
+}
+.portfolio__lg4{
+    margin-left: 7%;
+}
+/********************************************FOOTER*********************************************/
+.footer__h3{
+    font-size: 32px;
+    color: var(--blue);
+    font-family: var(--m-b);
+}
+.footer__p{
+    font-size: 16px;
+    color: var(--gray);
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer__row-1-lg4-row-lg7-h3{
+    font-family: var(--m-b);
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+.footer__row-1-lg4-row-lg7-h3-p{
+    font-size: 14px;
+    color: var(--pink);
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+.footer__row-1-lg4-row-lg7-h3-p1{
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.footer__row-1-lg4-row-lg7{
+    padding-top: 35px;
+}
+.footer__img{
+    height: 100%;
+}
+.footer__row-1{
+    position: relative;
+}
+.footer{
+    padding: 100px 0 165px 0;
+   
+}
+.footer__a{
+    color: var(--pink);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--m-r);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    }
+.footer__line{
+    width: 100%;
+    background: #000000;
+    height: 1px;
+    margin-top: 20px;
+}
+.footer__icon{
+    font-size: 30px;
+    color: var(--light);
+    margin-left: 5px;
+}
+.footer__nav-p{
+    font-size: 17px;
+    color: var(--light);
+}
+.footer_nav{
+    margin-top: 30px;
+}
+
+    
+/*******************************************MEDIA***********************************************/
+@media (max-width:500px){
+    .header__h5{
+        font-size: 24px;
+            }
+            .navbar__logo{
+                font-size: 10px;  
+            }
+}
